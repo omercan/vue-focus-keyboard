@@ -247,6 +247,11 @@
           case 'x':
             document.execCommand('cut', false, null)
             break
+            
+          case 'v':
+            document.execCommand('paste')
+            break
+            
         }
         this.ctrl = false
       },
